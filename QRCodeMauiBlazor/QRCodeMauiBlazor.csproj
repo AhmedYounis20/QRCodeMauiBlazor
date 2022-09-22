@@ -50,6 +50,12 @@
     </ItemGroup>
 
     <ItemGroup>
+      <None Remove="Resources\Fonts\fa-brands-400.ttf" />
+      <None Remove="Resources\Fonts\fa-regular-400.otf" />
+      <None Remove="Resources\Fonts\fa-solid-900.ttf" />
+    </ItemGroup>
+
+    <ItemGroup>
       <PackageReference Include="ZXing.Net.Maui" Version="0.1.0-preview.7" />
     </ItemGroup>
 

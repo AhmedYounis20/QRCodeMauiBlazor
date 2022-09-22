@@ -7,8 +7,10 @@
     <VerticalStackLayout>
         <Label 
             x:Name="BarcodeResult"
-            Text="Welcome to .NET MAUI!"
+            Text="InnoTech Delivery QRScanner"
             VerticalOptions="Center" 
+            FontSize="24"
+            
             HorizontalOptions="Center" />
         <VerticalStackLayout Spacing="10" Margin="200">
         <zxing:CameraBarcodeReaderView x:Name="barcodeReader"
@@ -21,7 +23,7 @@
         </VerticalStackLayout>
         <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
             
-            <Button Text="BackToMain" Clicked="BackToMain"  />
+            <Button Text="Back To Main" Clicked="BackToMainAsync"  />
         </VerticalStackLayout>
 
     </VerticalStackLayout>
