@@ -54,7 +54,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <MauiXaml Update="Pages\NewPage1.xaml">
+      <Compile Update="Pages\QRReader.xaml.cs">
+        <DependentUpon>QRReader.xaml</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <MauiXaml Update="Pages\QRReader.xaml">
         <Generator>MSBuild:Compile</Generator>
       </MauiXaml>
     </ItemGroup>
